@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpg" href="../assets/img/LogoMightyducks-01.png"/>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>Form Design 3</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./rules.html">Rules</a></li>
+          <li><a href="./game-information.html">Game Information</a></li>
+          <li><a href="./form.html">Registration</a></li>
+        </ul>
+      </nav>>
+
+      <div class="logo">
+        <img src="../assets/img/LogoMightyducks-01.png" alt="logo" />
+      </div>
+    </header>
+    <div class="div-nombre">
+      <h1>MIGHTY DUCKS HOCKEY LEAGUE</h1>
+    </div>
+
+    <main>
+      <aside></aside>
+
+      <div class="container">
+
+        <div class="contenido">
+          <form action="show_data.html" method=".GET">
+            <div class="form-superior">
+              <div class="casillero">
+                <label for="first-name">Player's First Name:</label>
+                <input type="text" name="first-name" id="first-name" required />
+              </div>
+              <div class="casillero">
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="last-name" id="last-name" required/>
+              </div>
+              <div class="casillero">
+                <label for="address">Street Address:</label>
+                <input type="text" name="address" id="address" required/>
+              </div>
+              <div class="casillero">
+                <label for="city">City:</label>
+                <input type="text" name="city" id="city" required/>
+              </div>
+              <div class="casillero">
+                <label for="zip-code">Zip Code</label>
+                <input type="text" name="zip-code" id="zip-code" />
+              </div>
+              <div class="form-superior-dos">
+              <div class="casillero">
+                <label for="birth-date">Birth Date(dd/mm/yyyy):</label>
+                <input type="date" name="birth-date" id="birth-date" required/>
+              </div>
+              <div class="casillero">
+                <label for="gender">Gender:</label>
+                <select name="gender" required>
+                  <option value="female">Female</option>
+                  <option value="male">Male</option>
+                  <option value="other">Other</option>
+                </select>
+                
+              </div>
+              <div class="casillero">
+                <label for="grade">Grade:</label>
+                <select name="grade" required>
+                  <option value="pre-school">Ore-School</option>
+                  <option value="1st">1st</option>
+                  <option value="2nd">2nd</option>
+                  <option value="3rd">3rd</option>
+                  <option value="4th">4th</option>
+                  <option value="5th">5th</option>
+                
+                </select>
+                
+              </div>
+            </div>
+  
+            <div class="form-closest-school">
+              <h5>Which elementary school do you live near?</h5>
+              <label for="closest-school">Closest School:</label>
+                <select name="closest-school" required>
+                  <option value="pre-school">Ore-School</option>
+                  <option value="aj-Katzenmaie">AJ Katzenmaier</option>
+                  <option value="greenbay">Greenbay</option>
+                  <option value="howard-a-yeager">Howard A Yeager</option>
+                  <option value="marjorie-p-hart">Marjorie P Hart</option>
+                  <option value="north-elementary">North Elementary</option>
+                  <option value="south-elementary">South Elementary</option>
+                  
+                </select>
+              </div>
+                
+             
+             
+            <div class="form-position">
+              <h5>What position(s) do you normally play?(check all the apply)</h5>
+              <div class="casillero">
+                
+                <label for="forward">Forward <input
+                  type="checkbox"
+                  name="position"
+                  id="forward"
+                  value="forward"
+                /></label>
+              </div>
+              <div class="casillero">
+                
+                <label for="defense">Defense <input
+                  type="checkbox"
+                  name="position"
+                  id="defense"
+                  value="defense"
+                /></label>
+              </div>
+              <div class="casillero">
+              
+                <label for="midfield">Midfield   <input
+                  type="checkbox"
+                  name="position"
+                  id="goalkeeper"
+                  value="goalkeeper"
+                /></label>
+              </div>
+              <div class="casillero">
+                
+                <label for="goalkeeper">Goalkeeper<input
+                  type="checkbox"
+                  name="position"
+                  id="midfield"
+                  value="midfield"
+                />
+  </label>
+              </div>
+            </div>
+  
+            <div class="form-uniform-size">
+              <h5>Uniform size:</h5>
+              <div class="casillero">
+                
+                <label for="youth-small">Youth Small <input
+                  type="checkbox"
+                  name="uniform-size"
+                  id="youth-small"
+                  value="youth-small"
+                /></label>
+              </div>
+              <div class="casillero">
+                
+                <label for="youth-medium">Youth Medium <input
+                  type="checkbox"
+                  name="uniform-size"
+                  id="youth-medium"
+                  value="youth-medium"
+                /></label>
+              </div>
+              <div class="casillero">
+                
+                <label for="youth-large">Youth Large <input
+                  type="checkbox"
+                  name="uniform-size"
+                  id="youth-large"
+                  value="youth-large"
+                /></label>
+              </div>
+              <div class="casillero">
+                
+                <label for="small">Small <input
+                  type="checkbox"
+                  name="uniform-size"
+                  id="small"
+                  value="small"
+                /></label>
+              </div>
+              <div class="casillero">
+                
+                <label for="medium">Medium <input
+                  type="checkbox"
+                  name="uniform-size"
+                  id="medium"
+                  value="medium"
+                /></label>
+              </div>
+              <div class="casillero">
+                
+                <label for="large">Large <input
+                  type="checkbox"
+                  name="uniform-size"
+                  id="large"
+                  value="large"
+                /></label>
+              </div>
+              <div class="casillero">
+                
+                <label for="extra-large">Extra-Large <input
+                  type="checkbox"
+                  name="uniform-size"
+                  id="extra-large"
+                  value="extra-large"
+                /></label>
+              </div>
+            </div>
+  
+            <div class="form-permission">
+              <h5>Permission to Play</h5>
+              <p>
+                I, the parent or guardian of the minor registrant, agree that the
+                registrant and i will abide by all the rules of the Mighty Ducks
+                Hockey League (MDHL).In recognizing the possibility of physical
+                injury associated whit hockey and in consideration for the
+                "League" accepting the registrant for its hockey programs and
+                activities, i hereby release, discharge, and/or otherwise
+                indemnify MDHL, their amployees and associated personned and
+                volunteers, including the facilities used for practice and games,
+                against any claim by or on behaif of the registrant as a result of
+                the registrant's participation in the programand/orbeing
+                transported to or from MDHL sponsored activities, which
+                transportation. By signing below, i here by agree and authorizathe
+                above.In addition, by singing below, i also acknowledge that i
+                have read the cancellation policy and agree to its terms.
+              </p>
+              <div class="casillero-largo">
+                <label for="signature">Parent/Guardian Signature:</label>
+                <input type="text" name="signature" id="signature" />
+              </div>
+              <div class="casillero">
+                <label for="date">Date:</label>
+                <input type="date" name="date" id="date" />
+              </div>
+            </div>
+            <button type="submit">Registrar</button>
+          </form>
+        </div>
+  
+  
+  
+  
+  
+
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
