@@ -319,7 +319,7 @@ input[type="text"]{
 input[type="date"]{
   background-color: rgb(0, 0, 0);
   color: rgba(95, 161, 153, 1);
-  width: 13%;
+  width: 20%;
 }
 .casillero{
   display:flex;
@@ -340,6 +340,10 @@ select{
   display: flex;
   flex-wrap: wrap;
   width: 80%;
+  padding-left: 3%;
+}
+.form-position > h5{
+  padding-bottom: 2%;
 }
 .form-position > .casillero{
 
@@ -366,31 +370,77 @@ outline-color: transparent;
   display: flex;
   flex-wrap: wrap;
   width: 80%;
+  padding-left: 3%;
+}
+.form-uniform-size > h5{
+  padding-top:4%;
+  padding-bottom: 2%;
 }
 .form-uniform-size > .casillero{
-
+  
   width: 50%;
   height: 50%;
 }
 .form-uniform-size > h5{
   width: 100%;
 }
+.form-uniform-size > label{
+  width: 50%;
+  padding-bottom: 1%;
+}
 .form-superior{
+  display: flex;
+  flex-direction: column;
+  padding-left: 3%;
   width: 50%
+ 
 }
 .form-superior-dos{
-  width: 40%
-}
-.contenido{
   display: flex;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-
+  flex-direction: column;
+  padding-left: 3%;
+  width: 50%;
+ justify-content: space-between;
+  
 }
+
 form{
   width: 100%;
+  display: flex;
   padding: 0;
+  flex-wrap: wrap;
   margin: 0;
 }
-
+.contenido-form{
+  display: flex;
+  color:rgba(95, 161, 153, 1);
+  padding: 0;
+  width: 100%;
+  ;
+  
+}
+.form-permission{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 3%;
+  padding-top:5%;
+  padding-right: 5%;
+}
+.form-permission > p{
+  padding-bottom: 4%;
+}
+form > button{
+  margin-left: 3%;
+  margin-top: 3%;
+  width: 10%;
+  background-color:black;
+  height: 5%;
+  border-radius: 5px;
+  color:rgba(95, 161, 153, 1);
+  border:solid 0.5px rgba(95, 161, 153, 1);
+}
+form > button:hover{
+  background-color: goldenrod;
+  color: black;
+}
